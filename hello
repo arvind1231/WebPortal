@@ -1,0 +1,20 @@
+public class hello{
+private String type;
+public String getType(){
+return type;}
+public void setType(String type){
+this.type=type;
+
+
+public static void main(String[] args){
+
+
+
+hello obj1=new hello();
+hello obj2=new hello();
+
+obj1.setType(null);
+obj2.setType("Fresco");
+System.out.println(obj1.getType()+".."+obj2.getType());
+}
+}
